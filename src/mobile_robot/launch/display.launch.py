@@ -78,8 +78,6 @@ def generate_launch_description():
         output='screen'
     )
 
-    # FAKE LIDAR NODE KO YAHA SE NIKAL DIYA HAI CHUHE KI TARAH! 🐀❌
-
     return LaunchDescription([
         rsp_node,
         gazebo,
